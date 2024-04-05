@@ -1,4 +1,3 @@
-
 // Getting rid of undefined values in an object
 
 export function removeUndefinedValues<T>(obj: T): Partial<T> {

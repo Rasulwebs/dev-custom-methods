@@ -1,4 +1,3 @@
-
 // Creates a slug for the URL of the text:
 
 const slugify = (str: string): string => {

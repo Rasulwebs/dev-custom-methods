@@ -1,4 +1,3 @@
-
 // To check the data based on the established legal rules
 
 export const regexPhoneNumber: RegExp = /^998(\d{9})$/; // for uzb
