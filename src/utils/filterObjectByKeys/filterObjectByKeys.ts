@@ -15,3 +15,13 @@ export const filterObjectByKeys = <T extends object>(
   });
   return filteredObject;
 };
+
+
+// const user: { name: string; age: number; email: string } = {
+//   name: 'John Doe',
+//   age: 30,
+//   email: 'john.doe@example.com',
+// };
+
+// const nameAndEmail = filterObjectByKeys(user, ['name', 'email']);
+// console.log(nameAndEmail); // { name: 'John Doe', email: 'john.doe@example.com' }
