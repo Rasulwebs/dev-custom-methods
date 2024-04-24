@@ -1,3 +1,16 @@
+
+# Dev Custom Methods
+
+This repository contains custom methods that help you work with React, TypeScript, and Vite. These techniques will speed up your programming process and make your code easier to understand.
+
+# Installation
+
+Run the following command to clone the repository:
+
+```bash
+git clone https://github.com/Rasulwebs/dev-custom-methods.git
+```
+
 # React + TypeScript + Vite
 
 ## Getting Started
