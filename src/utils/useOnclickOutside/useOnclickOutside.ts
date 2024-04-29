@@ -1,5 +1,13 @@
 import { RefObject, useEffect, useState } from "react";
 
+
+/**
+ * Returns a boolean value indicating whether the mouse click event occurred outside of the specified element.
+ *
+ * @param {RefObjectWithCurrent<T>} ref - The reference to the element to check for outside clicks.
+ * @return {boolean} A boolean value indicating whether the mouse click event occurred outside of the specified element.
+ */
+
 type RefObjectWithCurrent<T extends HTMLElement> = RefObject<T> & {
   current: T | null;
 };

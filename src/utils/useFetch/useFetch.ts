@@ -2,6 +2,13 @@ import { useEffect, useState } from "react";
 
 type FetchType = "GET" | "POST" | "PUT" | "DELETE";
 
+/**
+ * Fetches data from the specified URL using the specified HTTP method.
+ * Updates the loading state, error state, and data state accordingly.
+ *
+ * @return {Promise<void>} A promise that resolves when the data has been fetched and updated.
+ */
+
 const useFetch = <T>(
   url: string,
   method: FetchType = "GET",
