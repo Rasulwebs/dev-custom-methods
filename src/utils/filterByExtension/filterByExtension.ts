@@ -7,14 +7,15 @@
 // Checks if the extension exists in the validExtensions set.
 // Returns only files with extensions matching any of the provided extensions.
 
-
 export const filterByExtension = (
   files: any[],
   extensions: string[]
 ): any[] => {
   const validExtensions = new Set(extensions.map((ext) => ext.toLowerCase()));
+
   return files.filter((file) => {
     const extension = file.name.split(".").pop()?.toLowerCase();
+
     return extension && validExtensions.has(extension);
   });
 };

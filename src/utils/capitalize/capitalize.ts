@@ -2,7 +2,7 @@
 
 /**
  * Capitalizes the first letter of a given string.
- * 
+ *
  * @param {string} str - The string to capitalize.
  * @returns {string} The capitalized string.
  */

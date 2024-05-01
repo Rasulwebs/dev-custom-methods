@@ -8,6 +8,7 @@ export const filterObjectByKeys = <T extends object>(
   keys: string[]
 ): Partial<T> => {
   const filteredObject: Partial<T> = {};
+
   Object.keys(obj).forEach((key) => {
     if (keys.includes(key)) {
       filteredObject[key as keyof T] = obj[key as keyof T];
@@ -15,7 +16,6 @@ export const filterObjectByKeys = <T extends object>(
   });
   return filteredObject;
 };
-
 
 // const user: { name: string; age: number; email: string } = {
 //   name: 'John Doe',

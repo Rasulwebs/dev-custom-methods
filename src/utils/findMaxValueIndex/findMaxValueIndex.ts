@@ -10,11 +10,13 @@
 const findMaxValueIndex = (array: number[]): number | undefined => {
   if (array.length === 0) return undefined;
   let maxIndex = 0;
+
   for (let i = 1; i < array.length; i++) {
     if (array[i] > array[maxIndex]) {
       maxIndex = i;
     }
   }
+
   return maxIndex;
 };
 

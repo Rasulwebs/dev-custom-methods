@@ -10,7 +10,6 @@ export const flatten = <T>(arr: T[][]): T[] => {
   }, []);
 };
 
-
 // const nestedArray = [
 //   [1, 2, 3],
 //   [4, 5],
