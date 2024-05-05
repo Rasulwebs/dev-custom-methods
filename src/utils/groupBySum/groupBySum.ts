@@ -7,7 +7,8 @@
  *
  * @param {T[]} arr - The array of objects to be grouped.
  * @param {(item: T) => string | number} keySelector - A function that returns the property to group by.
- * @return {Record<string | number, number>} - An object where the keys are the unique values of the specified property and the values are the sums of the objects in each group.
+ * @return {Record<string | number, number>} - An object where the keys are the unique values of the specified
+ * property and the values are the sums of the objects in each group.
  */
 
 export const groupBySum = <T>(
